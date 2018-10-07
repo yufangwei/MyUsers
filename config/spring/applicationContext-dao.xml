@@ -46,4 +46,6 @@
 		<!-- 注意bean的名称是必须的，而不是bean的引用，因此value属性通常表示ref -->
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean>
+	
+	
 </beans>
