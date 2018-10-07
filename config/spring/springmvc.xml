@@ -18,7 +18,7 @@
  	<context:component-scan base-package="com.controller"></context:component-scan>
  	
  	<!--替换适配器、映射器 -->
- 	<mvc:annotation-driven></mvc:annotation-driven>
+ 	<mvc:annotation-driven/>
  	
  	<!-- 配置解析器 -->
  	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
